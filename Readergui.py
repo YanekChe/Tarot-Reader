@@ -109,7 +109,7 @@ def gui_main():
     root.mainloop()
 
 if __name__ == "__main__":
-    openai.api_key = "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"
+    openai.api_key = "yourKEY"
     if not openai.api_key:
         print("Error: API key not found. Please set the OPENAI_API_KEY environment variable.")
         input("Press Enter to exit...")
